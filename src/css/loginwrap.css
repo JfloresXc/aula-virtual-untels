@@ -1,0 +1,71 @@
+.login-wrap{
+    width: 100%;
+    max-width: 525px;
+    min-height: 675px;
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+    background : url(http://auvirtual.untels.edu.pe/php/aula_virtual/views/app/images/fondo_login_aula_virtual.jpg) no-repeat center;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);
+    position: relative;
+}
+
+.login-wrap__subwrap{
+    width: 100%;
+    height: 100%;
+    padding: 90px 50px 50px 50px;
+    position: absolute;
+    background: rgba(39, 80, 135, 0.66);
+}
+
+.login-wrap__title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block-end: 60px;
+    line-height: 110%;
+    margin: 2.8rem 0 2rem 0;
+    font-weight: 500;
+}
+
+.login-wrap__group-subtitle{
+    margin-top: 50px;
+}
+
+.login-wrap__input-checked{
+    position: absolute;
+    opacity: 0;
+}
+
+.login-wrap__tab{
+    color: #9e9e9e;
+    font-size: 22px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+}
+
+.login-wrap__select{
+    color: white;
+    border-color: #e3b142;
+} 
+
+@media screen and (max-width: 800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .login-wrap{
+        margin-top: 0
+    }
+
+    .login-wrap__tab{
+        font-size: 12px;
+    }
+}
+
+

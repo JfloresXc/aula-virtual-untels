@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background: #275087;
+  font: 600 16px/18px 'Open Sans',sans-serif;
+  overflow-y: hidden;
+}
+
