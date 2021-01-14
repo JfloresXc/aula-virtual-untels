@@ -1,12 +1,18 @@
 import React from 'react'
-import logo from './logo.svg'
 
 /* Components */
 import LoginWrap from './Components/LoginWrap'
+import Loading from './Components/Loading'
+
 
 function App() {
-    return(
-            <LoginWrap />
+    return (
+        <>
+            <Loading />
+            <main>
+                <LoginWrap />
+            </main>
+        </>
     )
 }
 

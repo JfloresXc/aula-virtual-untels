@@ -1,0 +1,49 @@
+.loader{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 5px solid rgba(0, 0, 0, .2);
+    border-top-color:white ;
+    border-bottom-color:  white;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: girar1 2s linear infinite;
+    transition: ease all
+}
+
+.loader__into{
+    border: 5px solid rgba(0, 0, 0, .3);
+    border-top-color:white ;
+    border-bottom-color:  white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    animation: girar2 5s linear infinite;
+    transition: .1s ease all;
+}
+
+@keyframes girar1{
+    from {transform: (0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes girar2{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+/* Modifiers */
+
+.loader__time{
+    right: -200px;
+    top: -200px;
+    transform: translate(-400px, 400px);
+}
+
+.loader__hidden{
+    display: none;
+}

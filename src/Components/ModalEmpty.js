@@ -11,9 +11,9 @@ function ModalEmpty() {
     return (
         <div className="modal-empty__overlay modal-empty__overlay-hidden" id="modal-empty">
             <div className="modal-empty__modal animate__animated animate__bounceIn">
-                <span class="modal-empty__icon material-icons">error_outline</span>
+                <span className="modal-empty__icon material-icons">error_outline</span>
                 <h1 className="modal-empty__title">Aula Virtual</h1>
-                <p className="modal-empty__text">Completa los datos</p>
+                <p className="modal-empty__text"></p>
                 <div className="modal-empty__footer">
                     <button className="modal-empty__button" onClick={handleModal}>Ok</button>
                 </div>
