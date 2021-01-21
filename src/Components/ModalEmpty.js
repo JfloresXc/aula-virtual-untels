@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import '../css/modalempty.css'
 
 function ModalEmpty() {
+    const [valueRedirect, setValueRedirect] = useState(0)
+
     const handleModal = () => {
         document.getElementById("modal-empty").classList.remove('modal-empty__overlay-show')
         document.getElementById("modal-empty").classList.add('modal-empty__overlay-hidden')
+
+        setValueRedirect(valueRedirect + 1)
+    }
+
+    if(valueRedirect === 2){
+        console.log('redirect')
+        window.location.href = "http://auvirtual.untels.edu.pe/index.php#!"
     }
 
     return (

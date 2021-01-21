@@ -28,7 +28,7 @@ function LoginForm(props) {
             document.getElementById("modal-empty").classList.remove('modal-empty__overlay-hidden')
             document.getElementById("modal-empty").classList.add('modal-empty__overlay-show')
         }
-
+        
     }
 
     return (
